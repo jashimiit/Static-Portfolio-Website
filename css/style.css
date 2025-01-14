@@ -1,0 +1,48 @@
+:root {
+    --text-color: black;
+    --link-color: blue;
+    --background-color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins" sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+    align-items: center;
+}
+
+nav .left a {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+nav .right a {
+    color: var(--text-color);
+    margin: 0 15px;
+}
+
+nav .right a span {
+    margin-left: 8px;
+}
