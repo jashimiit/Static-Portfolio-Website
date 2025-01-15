@@ -23,6 +23,8 @@ a {
     color: var(--link-color);
 }
 
+/* nav section */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,4 +47,50 @@ nav .right a {
 
 nav .right a span {
     margin-left: 8px;
+}
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.hero-section .hero-text{
+    flex: 5;
+}
+
+.hero-section .hero-text h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.hero-section .hero-text .links a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    
+}
+
+.hero-section .hero-text .links a:hover{
+    color: var(--text-color);
+    border-color: brown;
+}
+
+.hero-section .hero-image{
+    flex: 2;
+    justify-content: right;
+    display: flex;
+}
+
+.hero-section .hero-image img{
+    border-radius: 60%;
+    width: 450px;
 }
