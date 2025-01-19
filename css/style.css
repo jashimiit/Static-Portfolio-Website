@@ -146,6 +146,56 @@ nav .right a span {
 
 /* Projects Section */
 
+.projects-section{
+    margin: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.projects-section h2{
+    font-size: 35px;
+}
+
+.projects-section .profile{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-section .profile .card{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    max-width: 400px;
+    max-height: 350px;
+    padding: 20px;
+}
+
+.projects-section .profile .card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.projects-section .profile .card .links a{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 2px solid var(--link-color);
+    border-radius: 5px;
+    
+}
+
+.projects-section .profile .card .links a:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
 /* Contact Section */
 
 .contact-section{
